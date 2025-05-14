@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employeeData>
+  <employee type="virtual" hiring="self">
+    <name>David</name>
+    <address>Dundee</address>
+  </employee>
+  <employee type="real" hiring="hr">
+    <name>Adam</name>
+    <address>Dublin</address>
+  </employee>
+  <employee type="real" hiring="hr">
+    <name>Diogo</name>
+    <address>Lisbon</address>
+  </employee>
+  <employee type="virtual" hiring="self"/>
+</employeeData>
