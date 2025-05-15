@@ -1,6 +1,9 @@
 # Light Weight XML library for c++
 
 # Getting Started
+## How-to compile
+TODO
+## How-to integrate
 TODO
 # Features:
 ## XML Reading:
