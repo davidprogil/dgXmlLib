@@ -15,7 +15,7 @@
 cd src\
 cmake .\
 make\
-./dgXmlLibExample\
+./dgXmlLibExample
 # Features:
 ## XML Reading:
 - nodes: yes
