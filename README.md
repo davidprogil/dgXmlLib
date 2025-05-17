@@ -12,7 +12,7 @@
 - The library has no dependencies except for the default C/C++ system dependencies.
 - The example uses the cmake compilation framework, but this is not required if your project uses some other compilation framework
 ## How-to compile and run the example
-cd src
+cd src\
 cmake .
 make
 ./dgXmlLibExample
