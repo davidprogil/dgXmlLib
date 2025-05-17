@@ -3,11 +3,16 @@
 # Getting Started
 ## How-to integrate
 ### Code
-./src/dgXmlLib.cpp has an example of the code that can be used to read XML files. This file is not part of the library, it is just an example
+./src/dgXmlLib.cpp has an example of the code that can be used to read XML files. This file is not part of the library, it is just an example.
 ### Library
-The library is composed of the files inside ./src/dgXmlLib, depending on your compilation mechanism, include the headers in your project (see the example) and find a way to include the library source code into your compilation framework e.g. makefiles, cmake, etc.
+- The library is composed of the files inside ./src/dgXmlLib, 
+- Include the files of the library in your project: this depends of your compilation framework (e.g. makefiles, cmake, etc.)
+- The file CMakeLists.txt is provided as example, it is for the cmake compilation framework.
 ## How-to compile and run the example
-TODO
+cd src
+cmake .
+make
+./dgXmlLibExample
 # Features:
 ## XML Reading:
 - nodes: yes
