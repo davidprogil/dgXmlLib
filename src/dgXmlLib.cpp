@@ -27,7 +27,7 @@ int main() {
 
 	X_Document doc;
 	X_DocumentReader reader;
-	FILE *fh=fopen("./data/sample.xml","r");
+	FILE *fh=fopen("../data/sample.xml","r");
 	if (fh!=NULL)
 	{
 		reader.Read(fh,&doc);
