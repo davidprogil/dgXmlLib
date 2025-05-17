@@ -13,9 +13,9 @@
 - The example uses the cmake compilation framework, but this is not required if your project uses some other compilation framework
 ## How-to compile and run the example
 cd src\
-cmake .
-make
-./dgXmlLibExample
+cmake .\
+make\
+./dgXmlLibExample\
 # Features:
 ## XML Reading:
 - nodes: yes
