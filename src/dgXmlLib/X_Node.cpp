@@ -31,8 +31,8 @@ void X_Node::print(int ident)
 	}
 	std::cout <<  this->name;
 	for (auto & element : this->attributes) {
-			element.print();
-		}
+		element.print();
+	}
 
 	//content
 	std::cout << " : ";
@@ -47,6 +47,40 @@ void X_Node::print(int ident)
 	}
 }
 
+std::string X_Node::getContentOfSubNode(std::string subNodeName)
+{
+	std::string content="";
+
+	//swipe all nodes
+	for (auto & node : this->nodes)
+	{
+		//if expected name
+		if (node.name==subNodeName)
+		{
+			content=node.content;
+		}
+	}
+
+
+
+	return content;
+}
+
+std::string X_Node::getContentOfAttribute(std::string atttributeName)
+{
+	std::string content="";
+
+	//swipe all nodes
+	for (auto & attribute : this->attributes)
+	{
+		//if expected name
+		if (attribute.name==atttributeName)
+		{
+			content=attribute.content;
+		}
+	}
+	return content;
+}
 /* Public Functions ******************************************************/
 /* none */
 

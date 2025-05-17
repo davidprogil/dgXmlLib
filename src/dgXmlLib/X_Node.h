@@ -27,6 +27,8 @@ class X_Node {       // The class
 
     /* Methods ******************************************************/
     X_Node(std::string name_p);
+    std::string getContentOfSubNode(std::string subNodeName);
+    std::string getContentOfAttribute(std::string atttributeName);
     void print(int ident);
 
   private:
